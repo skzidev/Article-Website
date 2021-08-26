@@ -1,0 +1,6 @@
+# Article-Website
+I like reading news on The Verge, CNET, And PC MAG so I decided I wanted to make my own. *Name of the site is not Final*. I am new to HTML and I wanted to make 1 Admin account to Manage and Upload Stories. But I wasn't able to manage to do so. I am very new to HTML so if my ways are inefficient, That is why. I ended up Scrapping the idea, but if anyone wants to take a crack at it, I am happy for you to do so. Anyway I need help with this, so if anyone can help, The coding languages I am using are HTML, CSS, and a bit of JavaScript. If you want to help, I am happy to let you commit. :) I also want to mention, m.index.html is my try at a mobile version of the site Using Bootstrap. I don't know what to do with that at this point. Bye :)
+please do not  finish the code and upload it yourself without properly citing me for the parts of the code I DID make 
+if you know how to make this work, and are interested in making it happen. You can get in touch with me on Discord @AnimaTed#6422, and Reddit @AnimaTed6422
+If you know someone who could help me. I would greatly suggest giving them the link to this repsitory
+Finally, if you don't know how to use HTML, CSS or JavaScript, but want to help, the best way to do so is to spread the word.
