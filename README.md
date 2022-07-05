@@ -6,7 +6,7 @@ Sporting a major update after months of development.
 Coming Online Around June to August
 </p>
 
-<p align="center">Current Stage in Development:<br><b>Beta Testing</b></p>
+<p align="center">Current Stage in Development:<br><b>DataBase Setup</b></p>
 
 <h2 align="center">What Happened?</h2>
 <p align="center">In Short, I didn't have much time. Other things needed my attention more. Nothing serious, I just had less on my hands, and I got some time again, and made a lot of progress. I'm beta testing the site.</p>
