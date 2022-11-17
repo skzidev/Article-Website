@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" href="icon.png">
+<script src="index.js"></script>
+<button onclick="history.back()" class="PageButton">Back</button>
+<title>TechAPedia | Settings</title>
+<h1 class="PageTitle">Settings</h1>
+<hr style="width: 89%;">
+<br>
+    <div class="formDiv">
+<form autocomplete="off"><img id="errImg" onclick="this.style.display='none';" src="img/outline_search_off_black_24dp.png" style="display: none;"><br><input id="searchBox" type="text" style="border: 5px;border-radius: 50px;padding: 8px;outline: none;box-shadow: 0px 0px 2px 1px black;width:15%;" name="search" placeholder="Search..."></form><br><button style="margin:auto;margin-right:auto;margin-left:auto;display:block;" class="PageButton" onclick="var term = document.getElementById('searchBox').value;var items = window.find(term, false);if(items == ''){ var err = document.getElementById('errImg');err.style.display = 'inline'; }else{window.replace(items, '<span>term</span>');}">Search</button>
+    </div>
+    <br><br><br>
+</head>
+<body>
+<button class="PageButton" onclick="document.body.style.filter = 'blur(5px)';document.body.style.webkitFilter = 'blur(5px)';">Blur</button>
+<br><br>
+<div onclick="var code = document.getElementById('codeBlock');if(code.style.display == 'none'){ code.style.display = 'inline'; }else{ code.style.display = 'none'; }" style="display: inline;"><img src="img/outline_code_black_24dp.png"></div><p style="display: inline;">  </p>
+<div id="codeBlock" contenteditable="true" autocorrect="off" style="display: none;border-radius: 5px; padding: 2px;white-space:pre;font-family:Consolas;color:#d8dee9;background-color:#303841;-moz-tab-size:4;tab-size:4;"><span style="color:#c695c6;font-style:italic;">var</span> hworld <span style="color:#f97b58;">=</span> <span style="color:#5fb4b4;">"</span><span style="color:#99c794;">Hello, </span><span style="color:#99c794;">World!</span><span style="color:#5fb4b4;">"</span><span style="color:#a6acb9;">;</span></div>
+<br><br>
+<!-- Rounded switch -->
+<button class="PageButton" onclick="window.location.href='stry_tble_embed.html';">Full Screen Reader</button>
+<br><br>
+<button class="PageButton" onclick="toast()">Enable Toast Messages</button>
+<!-- The actual snackbar -->
+<div style="font-family: 'Source Code Pro', monospace;border-radius: 10px;" class="snackbar" id="snackbar">Toast Messages Enabled</div>
+<br><br>
+<br>
+<fieldset style="width: 30%;border-radius: 10px;margin:auto;margin-left;auto;margin-right:auto;display:block;">
+    <legend style="font-family: 'Source Code Pro', monospace;">Credits:</legend>
+<a style="font-family: 'Source Code Pro', monospace;" href="https://www.surge.sh">Check out the Awesome Folks at Surge!</a>
+<p style="text-align: left;">Free HTML Web Deployment for Front-End Web Developers. Not Sponsored! I just really like their service</p>
+<p>Code Written By <span style="font-family: 'JetBrains Mono', monospace;	background: linear-gradient(to right, #f32170,#ff6b08, #cf23cf, #5b44ee);-webkit-text-fill-color: transparent;-webkit-background-clip: text;border-radius: 20px;"><b>anima.Ted();</b></span></p>
+</fieldset>
+</body>
+</html>

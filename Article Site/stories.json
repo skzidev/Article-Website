@@ -1,0 +1,22 @@
+{
+  "Bookmarkets": {
+    "title": "Bookmarklets",
+    "subtitle": "The Chrome Extension. But Better.",
+    "filename": "bookmarkletsStory.html"
+  },
+  "TechAPedia Intro": {
+    "title": "This is TechAPedia",
+    "subtitle": "Where you can write articles on tech new and old.",
+    "filename": "ThisIsTechAPedia.html"
+  },
+  "Social Media": {
+    "title": "Social Media's Flowers and Thorns",
+    "subtitle": "A Reasonable Article",
+    "filename": "SocialMediaArtcle.html"
+  },
+  "Gaming": {
+    "title": "Gaming in 2021",
+    "subtitle": "Now that we have more time on our hands to game",
+    "filename": "Gamingin2021.html"
+  }
+}

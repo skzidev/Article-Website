@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+    if ( window.location !== window.parent.location ){
+    //in an iframe
+    document.write("<button class='PageButton' onclick='window.parent.location.href=`stry_tble_embed.html`'>Fullscreen</button>");
+    }
+    else {
+        // The page is not in an iFrame
+		document.write("<button onclick='history.back()' class='PageButton'>Back</button>");
+    }
+</script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>TechAPedia Reader</title>
+<table style="margin:auto;margin-left:auto;margin-right:auto;display:block;" class="NewStories">
+	<tr>
+		<td><img class = StryCoverImg src="https://pbs.twimg.com/media/DyelqYGXgAYsr9C.jpg:large"><p style="text-align: left;">Gaming in 2021</p><button class = "PageButton" onclick="window.location.href='Gamingin2021.html'">View This Article</button></td>
+		<td><img class = "StryCoverImg" src="https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kZXxlbnwwfHwwfHw%3D&w=1000&q=80"><p style="text-align: left;">This Is TechAPedia</p> <button class="PageButton" onclick="window.location.href='ThisIsTechapedia.html'">View This Article</button></td>
+		<td><img class = StryCoverImg src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fkrausgroupmarketing.com%2Fwp-content%2Fuploads%2F2017%2F05%2FBackground-of-famous-social-media-icons-506177624_4272x2848.jpeg&f=1&nofb=1"><p style="text-align: left;">Social Media's Flowers and Thorns</p><button class ="PageButton" onclick="window.location.href='SocialMediaArtcle.html'">View This Article</button></td>
+	</tr>
+	<tr>
+		<td><img src="img/add-bookmark.jpg" class="StryCoverImg"><p style="text-align: left;">Bookmarklets</p><button type="button" class="PageButton" onclick="window.location.href='bookmarkletsStory.html'">View Article</button></td>
+	</tr>
+	</table>
+</html>

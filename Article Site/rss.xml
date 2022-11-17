@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>TechAPedia</title>
+        <link>https://www.techapedia.surge.sh/rss.xml</link>
+        <description>All About Tech</description>
+        <item>
+            <title>Gaming in 2021</title>
+            <link>https://www.techapedia.surge.sh/Gamingin2021.html</link>
+            <description>Now that We Have More Time to Game</description>
+        </item>
+        <item>
+            <title>This Is TechAPedia</title>
+            <link>https://www.techapedia.surge.sh/ThisIsTechapedia.html</link>
+            <description>Where you can write articles on tech new and old.</description>
+        </item>
+        <item>
+            <title>Social Media's Flowers and Thorns</title>
+            <link>https://www.techapedia.surge.sh/SocialMediaArtcle.html</link>
+            <description>A Reasonable Article</description>
+        </item>
+    </channel>
+</rss>

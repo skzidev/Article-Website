@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Story Embed</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script>
+        if(window.location.href !== window.parent.location.href) {
+            // If the current URL is not the same as the parent URL, then the current window is a frame.
+        }
+        else{
+            // If the current URL is the same as the parent URL, then the current window is the main window.
+            document.write("<button type='button' class='btn btn-dark' onclick='history.back()'>Back</button><br>");
+        }
+    </script>
+</head>
+<!--
+<iframe src="m.story_embed.html" style="border:none;width: 100%;height: 1620px;">
+-->
+<body>
+<style>
+    .btn btn-dark{
+    margin:auto;margin-left:auto;margin-right:auto;display:block;
+    }
+</style>
+<img src="https://images.wallpaperscraft.com/image/code_text_colorful_140555_2560x1440.jpg" class="img-thumbnail"><h2>This is TechAPedia</h2><p><small>An introduction to TechAPedia</small></p>
+<button type="button" class="btn btn-dark" style="margin:auto;margin-left:auto;margin-right:auto;display:block;" onclick=" window.parent.location.href='ThisIsTechapedia.html'">View Article</button> <br><br><hr style="width: 80%;margin:auto;"><br>
+<style>h2{ text-align: center; font-family: 'Source Code Pro', monospace; } small{ text-align: center; font-family: 'Source Code Pro', monospace; } p{ text-align: center; } button{ font-family: 'Source Code Pro', monospace; } .img-thumbnail{ border-radius:20px ; } iframe{ border-radius:20px ; }.btn btn-dark{ margin: auto;margin-left:auto;margin-right:auto;display: block;font-family: 'Source Code Pro', monospace; }</style>
+<img src="https://pbs.twimg.com/media/DyelqYGXgAYsr9C.jpg:large" class="img-thumbnail">
+<h2>Gaming in 2021</h2><p><small>What's Gaming Like in 2021 with more time on our hands</small></p>
+<button type="button" class="btn btn-dark" style="margin:auto;margin-left:auto;margin-right:auto;display:block;" onclick ="window.parent.location.href='Gamingin2021.html'">View Article</button>
+<br><br><hr style="width: 80%;margin:auto;"><br>
+<td><img src="https://external-content.duckduckgo.com/iu/?u=https://krausgroupmarketing.com/wp-content/uploads/2017/05/Background-of-famous-social-media-icons-506177624_4272x2848.jpeg&f=1&nofb=1" class="img-thumbnail" ><h2>Social Media's Flowers and Thorns</h2><p><small>Healthy Social Media Habits, And how to be healthy</small></p><button style="margin:auto;margin-left:auto;margin-right:auto;display:block;" type="button" onclick="window.parent.location.href='SocialMediaArtcle.html'" class="btn btn-dark">View Article</button></td>
+<br>
+<td><img src="img/add-bookmark.jpg" style="width: 100%;" class="img-thumbnail"><h2>Bookmarklets</h2><p><small>The Chrome Extension. But Better</small></p><button type="button" class="btn btn-dark" style="margin:auto;margin-left:auto;margin-right:auto;display:block;" onclick="window.parent.location.href='bookmarkletsStory.html'">View Article</button></td>
+</body>
+</html>

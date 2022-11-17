@@ -1,27 +1,52 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+	<link rel="icon" type="image/png" href="icon.png">
 	<title>Sign into TechAPedia</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<button class = "PageButton" onclick="window.location.href='index.html'">Back</button>
+	<script src="index.js"></script>
+	<button class = "PageButton" onclick="history.back()">Back</button>
 	<h1 class = "SignInTitle">Sign In</h1>
-	<h2>Sign in to make moderate the site</h2>
-	<p>There is only 1 administrator account, and you cannot create another one</p>
+	<h2>Sign in to get Special permissions to the site</h2>
+	<p>Sign into The Developer, Or Admin Account</p>
+	<p id="cngTxt"></p>
+	<script>
+	function enterCheck(e){
+    if (!e) e = window.event;
+    var keyCode = e.code || e.key;
+    if (keyCode == 'Enter'){
+      // Enter pressed
+      document.getElementById('alertBton').click();
+    }
+  }
+	</script>
+	<div class="formDiv"><input autocomplete="off" onkeypress="enterCheck(event)" class="pwField" style="text-align: center;margin:auto;margin-left:auto;margin-right:auto;display:block;border: 5px;border-radius: 50px;padding: 8px;outline: none;box-shadow: 0px 1px 3px gray;width: 15%;" placeholder="Password" id="passwordField" type="text"><br><button id="alertBton" style="margin: auto;margin-left:auto;margin-right:auto;display:block;" class="PageButton" onclick="admintest()">Sign In</button><br><!--<button onclick="var inp = document.getElementById('passwordField');if(inp.type == 'password'){ this.textContent = 'Hide Password';inp.type = 'text'; }else{ this.textContent = 'Show Password';inp.type = 'password'; }" class="PageButton" style="margin: auto;margin-left:auto;margin-right:auto;display:block;">Show Password</button>--></div></div>
+
+	<meta name="google-signin-client_id" content="881817291497-2p1nlpaljsa02bd8eiutq7lkv1q5kvi1.apps.googleusercontent.com">
+
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<script>
+
+  gapi.load('auth2', function() {
+    /* Ready. Make a call to gapi.auth2.init or some other API */
+  });
+</script>
+<div id="g_id_onload"
+         data-client_id="881817291497-2p1nlpaljsa02bd8eiutq7lkv1q5kvi1.apps.googleusercontent.com"
+         data-login_uri="https://techapedia.surge.sh/devindex"
+         data-auto_prompt="false"
+         data-redirecturi="https://techapedia.surge.sh/devindex">
+      </div>
+      <div class="g_id_signin"
+         data-type="standard"
+         data-size="large"
+         data-theme="outline"
+         data-text="sign_in_with"
+         data-shape="rectangular"
+         data-logo_alignment="left">
+      </div>
 </head>
 <body>
 	<br><br><br>
-	<div class = SignInBox>
-	<form>
-		
-		Password:
-		<input type="text" name="Password" placeholder="Enter Password">
-		</form>
-		<button class = "PageButton">Sign In</button>
-
-		<script>var x = document.getElementById("myText").value</script>
-		<input size="25" type="text">
-
-		
-	</div>
 	<body>
 	<html>

@@ -2,40 +2,120 @@
 	text-align: center;
 	border-color: black;
 	border: 30px;
+	font-size: 700%;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #5b44ee);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
 	border-radius: 20px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+html::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 10px;
+}
+html::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+#codeBlock{
+    outline: none;
+}
+.formDiv{
+    display: inline;
+    text-align: center;
+}
+.PageButton:hover{
+	color: white;
+	-webkit-animation: color-change-4x 6s linear infinite alternate both;
+	animation: color-change-4x 6s linear infinite alternate both;
 }
 head{
 	background-color: white;
 }
 body{
 	background-color: white;
-
-
-
 }
 .TitleDesc{
 	text-align: center;
-
+	font-family: 'Anonymous Pro', monospace;
+	font-size: 300%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 .PageButton{
-	border-radius: 20px;
-	border color: white;
-	box-shadow: black;
+	border-radius: 5px;
+	border-color: white;
+	background-color: #D3D3D3;
+	font-family: 'Source Code Pro', monospace;
+	border:none ;
+	padding: 5px;
+}
+#bannerCloseImage{
+    background-color: none;
+}
+#bannerCloseImage:hover{
+	background-color: #5c5c5c;
+	border-radius: 10px;
+	height: 100%;
 }
 .NewStories{
 	align-self: right;
 }
-.Articles{
-
+.TopStories{
+	font-family: 'Source Code Pro', monospace;
+	font-size: 100%;
+	text-decoration: none;
+	background-color: #F8F8F8;
+	padding: 7px;
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+	background-color: #D3D3D3;
+}
+.TopStories:hover{
+	color: white;
+	cursor: default;
+	-webkit-animation: color-change-4x 6s linear infinite alternate both;
+	animation: color-change-4x 6s linear infinite alternate both;
 }
 .SignInTitle{
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	background: linear-gradient(to right, #f32170,
+	#ff6b08, #cf23cf, #eedd44);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	font-size: 600%;
 }
 .Stry1Img{
 	width: 20%;
 	height: 20%;
+}
+.sign{
+    	text-align: center;
+    	border-color: black;
+    	border: 30px;
+    	font-size: 400%;
+        background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #5b44ee);
+    	-webkit-text-fill-color: transparent;
+    	-webkit-background-clip: text;
+    	border-radius: 10px;
+    	font-family: 'Source Code Pro', monospace;
 }
 h2{
 	text-align: center;
@@ -44,11 +124,11 @@ h2{
 .SignInBox{
 	border-width: 30px;
 	border-radius: 20px;
-	border color: black;
+	border-color: black;
 }
 p{
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Code Pro', monospace;
 }
 form{
 	align-items: center;
@@ -59,12 +139,14 @@ form{
 	border-radius: 20px;
 }
 .StryCoverImg{
-	border-radius: 20px;
+	border-radius: 5px;
 	height: 40%;
 	width: 40%;
 }
-h1{text-align: center;
-font-family: 'Roboto', sans-serif;}
+h1{
+text-align: center;
+font-family: 'Roboto', sans-serif;
+}
 .ArticleBox{
 	width: 100%;
 	height: 100%;
@@ -72,11 +154,271 @@ font-family: 'Roboto', sans-serif;}
 .RefImg{
 	width: 30%;
 	height: 30%;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
 	border-radius: 20px;
 }
 h4{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+}
+.snackbar{
+    font-family: 'Source Code Pro', monospace;
 }
 iframe{
-	border-radius: 20px;
+	border-radius: 5px;
+	border: none;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
+.iframe{
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.WriterImg{
+	border-radius:100px ;
+	width:2% ;
+	Height:4% ;
+}
+.BottomBar{
+background-color: rgb(40, 40, 40);
+border-radius: 5px;
+width:100% ;
+height:100% ;
+padding: 2px;
+}
+.DescText{
+color: white;
+text-align: center;
+font-family: 'Source Code Pro', monospace;
+}
+input{
+align: center;
+}
+.DarkMode{
+background-color:#404040;	
+}
+.PageButtonImg{
+height:10% ;
+width:10% ;
+}
+.signinbutton{
+text-align: center;
+border-radius: 20px;
+}
+h4{
+	text-align:center ;
+}
+.banner{
+	background-color: rgb(40, 40, 40);
+	padding: 2px;
+	border-radius: 10px;
+	display: block;
+}
+.BannerP{
+	font-family: 'Source Code Pro', monospace;
+	color:white ;
+	display: block;
+}
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+  }
+  
+  .switch input { 
+	opacity: 0;
+	width: 0;
+	height: 0;
+  }
+  
+  .slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  .slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  input:checked + .slider {
+	background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+	box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+	border-radius: 34px;
+  }
+  
+  .slider.round:before {
+	border-radius: 50%;
+  }
+  h3{
+	  color:black ;
+	  font-family: 'Gemunu Libre', sans-serif;
+  }
+.centerIfR{
+  display: block;
+  box-shadow: 0px 0px 20px 15px #888888;
+  border-radius: 10px;
+  }
+  /* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+	visibility: hidden; /* Hidden by default. Visible on click */
+	min-width: 250px; /* Set a default minimum width */
+	margin-left: -125px; /* Divide value of min-width by 2 */
+	background-color: #333; /* Black background color */
+	color: #fff; /* White text color */
+	text-align: center; /* Centered text */
+	border-radius: 2px; /* Rounded borders */
+	padding: 16px; /* Padding */
+	position: fixed; /* Sit on top of the screen */
+	z-index: 1; /* Add a z-index if needed */
+	left: 50%; /* Center the snackbar */
+	bottom: 30px; /* 30px from the bottom */
+  }
+  
+  /* Show the snackbar when clicking on a button (class added with JavaScript) */
+  #snackbar.show {
+	visibility: visible; /* Show the snackbar */
+	/* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+	However, delay the fade out process for 2.5 seconds */
+	-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+	animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  /* Animations to fade the snackbar in and out */
+  @-webkit-keyframes fadein {
+	from {bottom: 0; opacity: 0;}
+	to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+	from {bottom: 0; opacity: 0;}
+	to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+	from {bottom: 30px; opacity: 1;}
+	to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+	from {bottom: 30px; opacity: 1;}
+	to {bottom: 0; opacity: 0;}
+  }
+  .container {
+	display: inline-block;
+	cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+	width: 35px;
+	height: 5px;
+	background-color: #333;
+	margin: 6px 0;
+	transition: 0.4s;
+  }
+  
+  .change .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+	transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+	-webkit-transform: rotate(45deg) translate(-8px, -8px);
+	transform: rotate(45deg) translate(-8px, -8px);
+  }
+  @-webkit-keyframes color-change-5x {
+	0% {
+	  color: #19dcea;
+	}
+	25% {
+	  color: #b22cff;
+	}
+	50% {
+	  color: #ea2222;
+	}
+	75% {
+	  color: #f5be10;
+	}
+	100% {
+	  color: #3bd80d;
+	}
+  }
+  @keyframes color-change-5x {
+	0% {
+	  color: #19dcea;
+	}
+	25% {
+	  color: #b22cff;
+	}
+	50% {
+	  color: #ea2222;
+	}
+	75% {
+	  color: #f5be10;
+	}
+	100% {
+	  color: #3bd80d;
+	}
+  }
+  @-webkit-keyframes color-change-4x {
+	0% {
+	  background: #19dcea;
+	}
+	33.3333% {
+	  background: #b22cff;
+	}
+	66.666% {
+	  background: #ea2222;
+	}
+	100% {
+	  background: #f5be10;
+	}
+  }
+  @keyframes color-change-4x {
+	0% {
+	  background: #19dcea;
+	}
+	33.3333% {
+	  background: #b22cff;
+	}
+	66.666% {
+	  background: #ea2222;
+	}
+	100% {
+	  background: #f5be10;
+	}
+  }

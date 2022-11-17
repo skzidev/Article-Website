@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Account Info</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" type="image/png" href="https://media.discordapp.net/attachments/717459990729719931/888958382655029258/TechAPedia_DevsLogo_TB.png?width=499&height=499">
+<button class="PageButton" onclick="history.back()">Back</button>
+<h1 class ="PageTitle">Account</h1>
+	<hr style="width: 89%;">
+		<p>Creation Date:****</p>
+   		<p>Account Name: Admin</p>
+		<button onclick="document.getElementById('getPasswordDiv').style.display = 'block';" class="PageButton" style="margin:auto;margin-left:auto;margin-right:auto;display:block;">Reset Password</button>
+		<div style="display:none;" id="getPasswordDiv">
+			<br>
+			<input type="text" autocomplete="off" id="newPassword" style="border: 5px;border-radius: 50px;padding: 8px;outline: none;box-shadow: 0px 0px 2px 1px black;width:15%;margin:auto;margin-left:auto;margin-right:auto;display:block;" placeholder="Enter New Password">
+			<br>
+			<button onclick="var password = document.getElementById('newPassword').value;document.getElementById('getPasswordDiv').style.display = 'none';" class="PageButton" style="margin:auto;margin-left:auto;margin-right:auto;display:block;">Submit</button>
+		</div>
+</head>
+</html>
